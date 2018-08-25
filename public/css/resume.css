@@ -1,3 +1,10 @@
+/* 
+ * 界面色调：#ee7000
+ * 标题颜色：#010101  400
+ * 主要内容：#1f1f1f 300 
+ * 描述内容：#868686 300
+*/
+
 .info::before {
     content: '';
     background: url("/asset/top_bg.jpg") top center no-repeat;
@@ -50,12 +57,11 @@
 }
 
 .cv-item {
-    padding: 30px 15px 0;
+    padding: 15px 15px 0;
 }
 
 .header {
     position: relative;
-    margin-bottom: 5px;
     color: #ee7000;
     border-bottom: 1px solid #ee7000;
     padding: 5px;
@@ -63,7 +69,6 @@
 }
 
 .header .icon {
-    display: inline-block;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -130,26 +135,27 @@
 }
 
 .content .des {
+    margin-top: 10px;
     color: #868686;
 }
 
 .content .detail ul {
     list-style: disc;
     padding-left: 20px;
-    color: rgb(134, 134, 134);
-    font-weight: normal;
+    color: #1f1f1f;
+    font-weight: 300;
 }
 
 .content .detail li {
-    margin-top: 1em;
+    margin-top: 5px;
     display: list-item;
 }
 
 .content .skill-list ul {
     list-style: disc;
     padding-left: 20px;
-    color: rgb(134, 134, 134);
-    font-weight: normal;
+    color: #1f1f1f;
+    font-weight: 300;
 }
 
 .content .skill-list li:first-child {
@@ -157,7 +163,7 @@
 }
 
 .content .skill-list li {
-    margin-top: 1em;
+    margin-top: 5px;
     display: list-item;
 }
 
@@ -203,7 +209,7 @@
     margin-bottom: 0;
 }
 
-.company-item .prj-name{
+.company-item .title{
     margin-top: 10px;
     font-weight: 400;
 }
