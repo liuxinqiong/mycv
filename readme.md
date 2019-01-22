@@ -1,1 +1,1 @@
-个人简历、首页
+personal view
