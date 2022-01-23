@@ -1,215 +1,215 @@
-/* 
+/*
  * 界面色调：#ee7000
  * 标题颜色：#010101  400
- * 主要内容：#1f1f1f 300 
+ * 主要内容：#1f1f1f 300
  * 描述内容：#868686 300
 */
 
 .info::before {
-    content: '';
-    background: url("/asset/top_bg.jpg") top center no-repeat;
-    display: block;
-    width: 140px;
-    height: 150px;
-    margin: 0 auto 60px;
-    background-size: contain;
+  content: '';
+  background: url('/asset/top_bg.jpg') top center no-repeat;
+  display: block;
+  width: 140px;
+  height: 150px;
+  margin: 0 auto 60px;
+  background-size: contain;
 }
 
 .info {
-    padding: 0 15px;
-    font-size: 14px;
-    color: #1f1f1f;
-    font-weight: 300;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #1f1f1f;
+  font-weight: 300;
 }
 
 .info .career {
-    font-size: 14px;
-    color: #1f1f1f;
-    font-weight: 300;
-    padding: 5px;
+  font-size: 14px;
+  color: #1f1f1f;
+  font-weight: 300;
+  padding: 5px;
 }
 
 .info .name {
-    font-size: 30px;
-    font-weight: 400;
-    color: #010101;
+  font-size: 30px;
+  font-weight: 400;
+  color: #010101;
 }
 
 .info .head-on {
-    position: relative;
-    width: 128px;
-    background: #e5e5e5;
-    height: 128px;
-    border: 4px solid #e5e5e5;
-    overflow: hidden;
-    margin: 0 auto;
-    cursor: pointer;
+  position: relative;
+  width: 128px;
+  background: #e5e5e5;
+  height: 128px;
+  border: 4px solid #e5e5e5;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .info .head-on .img-preview {
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
 }
 
 .info .head-on .img-preview > img {
-    width: 100%;
+  width: 100%;
 }
 
 .cv-item {
-    padding: 15px 15px 0;
+  padding: 15px 15px 0;
 }
 
 .header {
-    position: relative;
-    color: #ee7000;
-    border-bottom: 1px solid #ee7000;
-    padding: 5px;
-    margin-bottom: 20px;
+  position: relative;
+  color: #ee7000;
+  border-bottom: 1px solid #ee7000;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .header .icon {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    background-color: #ee7000;
-    color: white;
-    text-align: center;
-    margin-right: 5px;
-    float: left;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #ee7000;
+  color: white;
+  text-align: center;
+  margin-right: 5px;
+  float: left;
 }
 
 .header .icon > i {
-    display: inline-block;
+  display: inline-block;
 }
 
 .header .icon .education {
-    background: url(/asset/education.svg) no-repeat center;
-    background-size: 100% 100%;
-    height: 20px;
-    width: 20px;
-    margin-top: 10px;
+  background: url(/asset/education.svg) no-repeat center;
+  background-size: 100% 100%;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
 }
 
 .header .icon .project {
-    background: url(/asset/project.svg) no-repeat center;
-    background-size: 100% 100%;
-    height: 12px;
-    width: 12px;
-    margin-top: 14px;
+  background: url(/asset/project.svg) no-repeat center;
+  background-size: 100% 100%;
+  height: 12px;
+  width: 12px;
+  margin-top: 14px;
 }
 
 .header .icon .introduction {
-    background: url(/asset/introduction.svg) no-repeat center;
-    background-size: 100% 100%;
-    height: 12px;
-    width: 12px;
-    margin-top: 14px;
+  background: url(/asset/introduction.svg) no-repeat center;
+  background-size: 100% 100%;
+  height: 12px;
+  width: 12px;
+  margin-top: 14px;
 }
 
 .header .icon .skill {
-    background: url(/asset/skill.svg) no-repeat center;
-    background-size: 100% 100%;
-    height: 12px;
-    width: 12px;
-    margin-top: 14px;
+  background: url(/asset/skill.svg) no-repeat center;
+  background-size: 100% 100%;
+  height: 12px;
+  width: 12px;
+  margin-top: 14px;
 }
 
 .header .title {
-    display: inline-block;
-    line-height: 40px;
-    height: 40px;
-    font-size: 16px;
+  display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
 }
 
 .content {
-    font-size: 14px;
-    color: #1f1f1f;
-    font-weight: 300;
-    border-bottom: 1px inset;
+  font-size: 14px;
+  color: #1f1f1f;
+  font-weight: 300;
+  border-bottom: 1px inset;
 }
 
 .content:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .content .des {
-    margin-top: 10px;
-    color: #868686;
+  margin-top: 10px;
+  color: #868686;
 }
 
 .content .detail ul {
-    list-style: disc;
-    padding-left: 20px;
-    color: #1f1f1f;
-    font-weight: 300;
+  list-style: disc;
+  padding-left: 20px;
+  color: #1f1f1f;
+  font-weight: 300;
 }
 
 .content .detail li {
-    margin-top: 5px;
-    display: list-item;
+  margin-top: 5px;
+  display: list-item;
 }
 
 .content .skill-list ul {
-    list-style: disc;
-    padding-left: 20px;
-    color: #1f1f1f;
-    font-weight: 300;
+  list-style: disc;
+  padding-left: 20px;
+  color: #1f1f1f;
+  font-weight: 300;
 }
 
 .content .skill-list li:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .content .skill-list li {
-    margin-top: 5px;
-    display: list-item;
+  margin-top: 5px;
+  display: list-item;
 }
 
 .content .hobby-list .hobby-item {
-    display: inline-block;
-    text-align: center;
-    margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
 }
-.content .hobby-list .hobby-item:last-child{
-    margin-right: 0;
+.content .hobby-list .hobby-item:last-child {
+  margin-right: 0;
 }
 .content .hobby-list .hobby-item .img-hobby {
-    display: block;
-    height: 60px;
-    width: 60px;
-    border: 1px solid rgb(211, 211, 211);
-    text-align: center;
-    border-radius: 4px;
+  display: block;
+  height: 60px;
+  width: 60px;
+  border: 1px solid rgb(211, 211, 211);
+  text-align: center;
+  border-radius: 4px;
 }
 
-.content .hobby-list .hobby-item .img-hobby>img{
-    margin-top: 15px;
-    width:30px;
+.content .hobby-list .hobby-item .img-hobby > img {
+  margin-top: 15px;
+  width: 30px;
 }
 
 .content .hobby-list .hobby-item .name-hobby {
-    margin-top: 3px;
-    color: rgb(135, 134, 134);
+  margin-top: 3px;
+  color: rgb(135, 134, 134);
 }
 
-.company-item{
-    border-bottom: 1px inset;
-    margin-bottom: 20px;
+.company-item {
+  border-bottom: 1px inset;
+  margin-bottom: 20px;
 }
 
-.company-item:last-child{
-    border-bottom: none;
-    margin-bottom: 0;
+.company-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
-.company-item .name{
-    color: #ee7000;
-    margin-bottom: 0;
+.company-item .name {
+  color: #ee7000;
+  margin-bottom: 0;
 }
 
-.company-item .title{
-    margin-top: 10px;
-    font-weight: 400;
+.company-item .title {
+  margin-top: 10px;
+  font-weight: 400;
 }
