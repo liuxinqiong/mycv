@@ -9,18 +9,7 @@ body {
   z-index: -1;
 }
 .container {
-  position: absolute;
-  width: 320px;
-  height: 200px;
-  left: 0;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  margin-left: -160px;
-  margin-top: -100px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+  padding: 24px;
 }
 .name {
   color: #000;
@@ -29,18 +18,22 @@ body {
 }
 .des {
   color: #000;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  margin: 8px 0;
 }
+
+.links a + a {
+  margin-left: 4px;
+}
+
 a {
-  color: #999;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 a:hover {
-  color: red;
-  text-decoration: none;
+  text-decoration: underline;
 }
+
 .footer {
   position: absolute;
   left: 0;
